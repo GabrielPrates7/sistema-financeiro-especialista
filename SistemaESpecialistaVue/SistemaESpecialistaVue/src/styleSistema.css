@@ -1,0 +1,182 @@
+.DivPrincipal {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100vh;
+    height: 93vh;
+}
+
+.DivEsquerda {
+    flex: 0 0 25%;
+    white-space: normal;
+    word-wrap: break-word;
+    min-width: 0;
+    background-color: rgba(46, 204, 112, 0.463);
+    height: 100%;
+    align-items: start;
+    justify-content: center;
+    color: white;
+    border-radius: 16px 0px 0px 16px;
+    padding: 50px 20px 20px 20px;
+
+}
+
+.DivDireita {
+    background-color: #EAECEE !important;
+    flex: 0 0 80%;
+    white-space: normal;
+    word-wrap: break-word;
+    min-width: 0;
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    border-radius: 0px 16px 16px 0px;
+    overflow: hidden;
+}
+
+.div3-1 {
+    background-color: #EAECEE;
+    padding: 50px 0px 50px 0px;
+    color: blue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.div3-2 {
+    background-color: #EAECEE;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    justify-content: flex-start;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+
+.div3-2-radio {
+    background-color: #EAECEE;
+    justify-content: flex-start;
+    align-items: start;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.div3-2-radio label{
+transition: 0.5s !important;
+    margin-top: 0px !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+}
+
+.div3-3 {
+    background-color: #EAECEE;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 150px;
+}
+
+.btSeguinte {
+    width: 125px;
+    height: 55px;
+    border-radius: 16px;
+    border: none;
+    background-color: #2ecc704f;
+    color: rgb(38, 38, 38);
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.div3-2-container {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #EAECEE;
+    padding-right: 10px;
+}
+
+input[type="text"]{
+  width: 500px; 
+  transition: 0.8s !important; 
+}
+
+input[type="radio"]:checked + label {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+/* === PERFIL CONSERVADOR === */
+#perfil-conservador:checked + .labelBtn1 {
+  background-color: #d4efdf !important;
+  border: solid 1px #27ae60 !important;
+  color: #145a32 !important;
+}
+
+.labelBtn1:hover {
+  border: solid 1px #27ae60 !important;
+  background-color: #eafaf1 !important;
+  color: #145a32 !important;
+}
+
+/* === PERFIl MODERADO === */
+#perfil-moderado:checked + .labelBtn2 {
+  background-color: #fcf3cf !important;
+  border: solid 1px #f1c40f !important;
+  color: #7d6608 !important;
+}
+
+.labelBtn2:hover {
+  border: solid 1px #f1c40f !important;
+  background-color: #fef9e7 !important;
+  color: #7d6608 !important;
+}
+
+/* === PERFIL ARROJADO === */
+#perfil-arrojado:checked + .labelBtn3 {
+  background-color: #f5b7b1 !important;
+  border: solid 1px #e74c3c !important;
+  color: #641e16 !important;
+}
+
+.labelBtn3:hover {
+  border: solid 1px #e74c3c !important;
+  background-color: #f9ebea !important;
+  color: #641e16 !important;
+}
+
+.div3-2-radio label {
+  transition: all 0.8s ease !important;
+  cursor: pointer;
+}
+
+/* =========== Estilo da tela de Resultados =========== */
+
+.sombraSuave {
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.resultado-item {
+  display: flex;
+  justify-content: space-between;
+  background: #f8f9fa;
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}

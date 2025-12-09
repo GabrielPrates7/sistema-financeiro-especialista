@@ -1,0 +1,17 @@
+# --- VUE.JS / NODE (Bloquear pasta pesada) ---
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+.env
+
+# --- JAVA / SPRING BOOT ---
+target/
+out/
+.idea/
+*.class
+*.log
+
+# --- SISTEMA ---
+.DS_Store
+Thumbs.db
